@@ -1,0 +1,39 @@
+body{
+    height:600px;
+    display:flex;
+    background-color:rgb(3, 3, 45);
+}
+.outer{
+    border:2px;
+    border-radius:15px;
+    display:flex;
+    gap:40px;
+    padding:30px;
+    background-color:rgb(5, 5, 69);
+    width:900px;
+    height:300px;
+    margin:auto;
+}
+img {
+  height:300px;
+  width:400px;
+  margin:auto;
+  border-radius:15px;
+}
+h1 {
+    color:white;
+    margin-bottom:30px;
+    
+}
+p{
+    color:gray;
+    margin-bottom:30px;
+}
+ul{
+    color:gray;
+    margin-bottom:30px;
+}
+.inner {
+    display:flex;
+    justify-content: space-between;
+}
